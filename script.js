@@ -40,6 +40,7 @@ function calcularTotal(){
 
     var ingredientes = parseInt(formulario.ingredientes.value);
     total += total + 5; 
+
     var cantidad = parseInt(formulario.cantidad.value);
     total +=total * 2;
 
@@ -48,6 +49,5 @@ function calcularTotal(){
     total += 30;
     }
 
-    document.getElementById('total').innerText;
-
+    formulario.total.value = total;
 }
