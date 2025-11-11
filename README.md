@@ -1,6 +1,4 @@
-# 
-
-#Instrucciones para realizar el Examen del Tercer Parcial (Septiembre - Diciembre 2025)
+# Instrucciones para realizar el Examen del Tercer Parcial (Septiembre - Diciembre 2025)
 Este proyecto consiste en completar una página web donde los usuarios pueden hacer un pedido de hamburguesas personalizadas. A continuación, se detallan los puntos que deberás implementar para que el sistema calcule correctamente el total del pedido.
 
 ---
