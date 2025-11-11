@@ -3,9 +3,9 @@ var formulario = document.getElementById("pedidoForm");
 function calcularTotal(){
     var total = 0;
     var esp = document.getElementById("especialidad");
-    var pan = formulario.pan.value;
-    var adi = formulario.ingrediente.checked;
-    
+    var pan = formulario.pan;
+
+
     if (pan == 0) {
         total += 0;
     }
@@ -19,8 +19,8 @@ function calcularTotal(){
         alert("Seleccione el tipo de pan");
     }
 
-    
-
+    var num = parseInt(formulario.cantidad.value);
+    total +=total * 2;
 
     alert(total);
 }
