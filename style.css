@@ -83,6 +83,7 @@ select:focus, input[type="number"]:focus {
 input[type="radio"], input[type="checkbox"] {
   margin-right: 10px;
   transform: scale(1.2);
+  color: blue;
 }
 
 .total {
