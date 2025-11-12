@@ -63,6 +63,11 @@ function calcularTotal(){
     if (formulario.arugula.checked) { total += 5; }
     if (formulario.cebollaCaramelizada.checked) { total += 5; }
 
+
+    if (formulario.jitomate.checeked || formulario.huevo.checked) {
+        alert ("tienes una promocion");
+    }
+    
     var cantidad = parseInt(formulario.cantidad.value);
     total = total * cantidad;
 
